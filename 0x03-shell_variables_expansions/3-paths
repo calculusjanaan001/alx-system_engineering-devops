@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "There are $num_dirs directories in the PATH."
+echo $((`echo $PATH | grep -o ":/" | wc -l` + 1))
