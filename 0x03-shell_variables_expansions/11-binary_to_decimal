@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "I$((2#$BINARY))"
+echo "$((2#$BINARY))"
